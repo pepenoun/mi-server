@@ -49,6 +49,7 @@ def download_latest_release(download_path='.'):
 		if version in glob.glob("*.msp"):
 			return version
 		else:
+	     
 			os.system("rm *.msp")
 			print("Actualizando tu versión de MSP...")
 			time.sleep(1.5)
